@@ -1,13 +1,13 @@
 def main():
     #escribe tu código abajo de esta línea
-    a = int(input('Ingresa la medida del lado 1: '))
-    b = int(input('Ingresa la medida del lado 2: '))
-    c = int(input('Ingresa la medida del lado 3: '))
-    if a>0 and b>0 and c >0:
-        if a+b>c and a+c>b and b+c>a:
-            if a==b and a==c:
+    x = int(input('Ingresa la medida del lado 1: '))
+    y = int(input('Ingresa la medida del lado 2: '))
+    z = int(input('Ingresa la medida del lado 3: '))
+    if x>0 and y>0 and z>0:
+        if x+y>z and x+y>z and y+z>x:
+            if x==y and x==z:
                 print('ES UN TRIANGULO EQUILATERO')
-            elif a==b or a==c or b==c:
+            elif x==y or x==z or y==z:
                 print('ES UN TRIANGULO ISOSCELES')
             else:
                 print('ES UN TRIANGULO ESCALENO') 
